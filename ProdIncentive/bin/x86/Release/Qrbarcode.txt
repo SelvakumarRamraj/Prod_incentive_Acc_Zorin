@@ -1,0 +1,7 @@
+^XA
+^PRC
+^LH0,0^FS
+^LL304
+^MD0
+^MNY
+^LH0,0^FS

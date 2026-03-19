@@ -1,0 +1,2 @@
+E:\Gdrv_prg\idrv\prodperf_2010\sapbarcode\obj\x64\Release\sapbarcode.vbprojResolveAssemblyReference.cache
+E:\Gdrv_prg\idrv\prodperf_2010\sapbarcode\obj\x64\Release\Interop.MSFlexGridLib.dll

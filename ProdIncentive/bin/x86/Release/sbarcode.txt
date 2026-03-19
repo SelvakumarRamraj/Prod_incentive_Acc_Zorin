@@ -1,0 +1,32 @@
+^XA                                                                                                                                                   
+^PRC                                                                                                                                                  
+^LH0.0^FS                                                                                                                                             
+^LL304                                                                                                                                                
+^MD0                                                                                                                                                  
+^MNY                                                                                                                                                  
+^LH0.0^FS                                                                                                                                             
+^FO255,20^A0N,40,41^CI13^FR^FDMRP:Rs.990.00^FS
+^FO310,54^A0N,24,26^CI13^FR^FD(Incl.of all Taxes)^FS
+^FO130,78^A0N,40,40^CI13^FR^FDSOFT TOUCH^FS
+^FO130,117^A0N,31,25^CI13^FR^FDCOL :WHITE SHIRT^FS
+^FO479,78^A0N,40,40^CI13^FR^FDFULL^FS
+^FO583,90^A0N,25,25^CI13^FR^FDSLEEVE^FS
+^FO570,150^A0N,65,50^CI13^FR^FD36^FS
+^FO620,150^A0N,21,30^CI13^FR^FDSIZE^FS
+^FO620,180^A0N,21,30^CI13^FR^FDcm^FS
+^FO479,120^A0N,29,33^CI13^FR^FDMFD:Sep 2018^FS
+^FO575,211^A0N,28,32^CI13^FR^FDQTY:1N^FS
+^BY2,2.0^FO130,150^B3N,N,61,N,Y^FR^FD18045092^FS
+^FO365,216^A0N,26,30^CI13^FR^FD1^FS
+^FO125,216^A0N,26,30^CI13^FR^FD18045092^FS
+^FO125,248^A0N,20,25^CI13^FR^FD
+^FO125,275^A0N,23,22^CI13^FR^FD
+^FO125,300^A0N,20,20^CI13^FR^FD
+^FO445,250^A0N,20,20^CI13^FR^FD
+^FO445,275^A0N,20,16^CI13^FR^FD
+^FO445,300^A0N,20,17^CI13^FR^FD
+^FO125,235^A0N,15,15^CI13^FR^FD
+^FO445,320^A0N,20,20^CI13^FR^FD
+^FO125,320^A0N,20,20^CI13^FR^FD
+^PQ1,0,0,N
+^XZ

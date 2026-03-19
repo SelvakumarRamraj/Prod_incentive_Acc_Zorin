@@ -1,0 +1,744 @@
+﻿<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<s:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Worksheet s:Name="SampleSheet">
+    <s:Table>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">Itemcode</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Item Name</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Style</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Size</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Qty</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Rate</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Linetotal</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDF39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-F39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">271</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">8130</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDF40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-F40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">271</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2710</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDF42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-F42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">271</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">5420</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDH38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-H38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">237</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7110</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDH39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-H39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">100</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">237</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">23700</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDH40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-H40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">237</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2370</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AWDH42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AWARD-H42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">237</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2370</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">BRF40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">BREZEES COTTON-F40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">281</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2810</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">CLF42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">CLASSIC COTTON-F42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">305</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">9150</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">CLH38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">CLASSIC COTTON-H38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">266</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">5320</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">FTSH38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FEATHER TOUCH-H38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">500</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">FTSNIH38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FEATHER TOUCH NI-H38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">369</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7380</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">LC7447H42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">LINEN COTTON 7447 - H42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">70</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">630</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">44100</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">PCF38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PURE COTTON-F38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">50</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">281</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">14050</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">PCF39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PURE COTTON-F39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">281</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2810</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">PCF40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PURE COTTON-F40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">281</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">5620</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">PCF44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PURE COTTON-F44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">281</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2810</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">PCH39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PURE COTTON-H39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">246</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">4920</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">ROF42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">ROYAL COTTON-F42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">623</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">18690</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMCF38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">RR SILK MARK CREAM - F38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1560</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">15600</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMCF42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">RR SILK MARK CREAM - F42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1560</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">46800</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMTF38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SAMMANTHAM-F38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">60</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">300</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">18000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMTF40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SAMMANTHAM-F40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">300</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">9000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMTF44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SAMMANTHAM-F44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">300</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">9000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SMTH44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SAMMANTHAM-H44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">60</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">263</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">15780</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">STF38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SOFT TOUCH-F38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">332</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">6640</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">STF40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SOFT TOUCH-F40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">FULL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">332</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">9960</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">STH38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SOFT TOUCH-H38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">288</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">11520</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">STH40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SOFT TOUCH-H40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">60</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">288</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">17280</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">STH42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SOFT TOUCH-H42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">50</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">288</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">14400</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">VSLH40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">VV SILK LINE-H40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">HALF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">340</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">3400</s:Data>
+        </s:Cell>
+      </s:Row>
+    </s:Table>
+  </s:Worksheet>
+</s:Workbook>

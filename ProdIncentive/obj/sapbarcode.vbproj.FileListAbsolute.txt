@@ -1,0 +1,722 @@
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarcode.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarsettings.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Resources.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\CButtonLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.SplashScreen1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.MDIFORM1.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.xml
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.pdb
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.pdb
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.xml
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\CButtonLib.dll
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\Interop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcode\sapbarcode\bin\Debug\AxInterop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\ResolveAssemblyReference.cache
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\Interop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\AxInterop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.MDIFORM1.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarcode.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarsettings.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Resources.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.SplashScreen1.resources
+F:\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\CButtonLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Release\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.MDIFORM1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarcode.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarsettings.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.Resources.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.SplashScreen1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Release\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\bin\Debug\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmcompanymaster.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Frmlogin.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprg\sapbarcode\sapbarcode\obj\Debug\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\CButtonLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmcompanymaster.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Frmlogin.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.MDIFORM1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarcode.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarsettings.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Resources.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.SplashScreen1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.pdb
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\CButtonLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\Interop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\AxInterop.MSFlexGridLib.dll
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmcompanymaster.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.Frmlogin.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.MDIFORM1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarcode.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarsettings.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.Resources.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.SplashScreen1.resources
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe.manifest
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.application
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.xml
+C:\Documents and Settings\Selva\Desktop\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\CButtonLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\ResolveAssemblyReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmcompanymaster.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Frmlogin.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.MDIFORM1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarcode.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.frmbarsettings.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Resources.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.SplashScreen1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\CButtonLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\ResolveAssemblyReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmcompanymaster.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.Frmlogin.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.MDIFORM1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarcode.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.frmbarsettings.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.Resources.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.SplashScreen1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\stdole.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\stdole.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.Frmprofcourier.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.Frmprofcourier.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Release\sapbarcode.exe.config
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Release\sapbarcode.TrustInfo.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\Debug\sapbarcode.exe.config
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\Debug\sapbarcode.TrustInfo.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\CButtonLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\stdole.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcode\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+F:\sapbarprgnew\sapbarcode\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\CButtonLib.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\stdole.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.application
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.exe
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.pdb
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\sapbarcode.xml
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\CButtonLib.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\stdole.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.application
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.exe
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.xml
+F:\sapbarprg\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\CButtonLib.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\stdole.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\Interop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.application
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.exe
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.xml
+F:\sapbarprgnew\sapbarcodetmptabnew\sapbarcode\obj\x86\Release\sapbarcode.pdb
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmantspacking.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmantsprocessbarcode.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmantscan.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmscanprint.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmcolormaster.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmstockreport.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmsalerep.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmatt.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmpnlconsolidate.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.salesordermatured.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmcolorstockmail.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.Frmpurcscan.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.FrmGSTR1.resources
+F:\sapbarprgnew\sapbarcodetmptab\sapbarcode\obj\x86\Release\sapbarcode.frmoperperform.resources
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.application
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.pdb
+D:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.xml
+D:\bbsap\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+D:\bbsap\sapbarcode\bin\x86\Release\CButtonLib.dll
+D:\bbsap\sapbarcode\bin\x86\Release\stdole.dll
+D:\bbsap\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+D:\bbsap\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+D:\bbsap\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+D:\bbsap\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmantscan.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmantspacking.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmantsprocessbarcode.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmatt.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcolormaster.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcolorstockmail.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.FrmGSTR1.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmoperperform.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpnlconsolidate.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpurcscan.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmsalerep.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmscanprint.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmstockreport.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.salesordermatured.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.application
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.exe
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.xml
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.pdb
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcostattlog.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcostempmaster.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcostreport.resources
+D:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmperfeff.resources
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.application
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.exe
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.pdb
+G:\bbsap\sapbarcode\bin\x86\Release\sapbarcode.xml
+G:\bbsap\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+G:\bbsap\sapbarcode\bin\x86\Release\CButtonLib.dll
+G:\bbsap\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+G:\bbsap\sapbarcode\bin\x86\Release\stdole.dll
+G:\bbsap\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+G:\bbsap\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+G:\bbsap\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcostempmaster.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmantscan.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmantspacking.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmantsprocessbarcode.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmatt.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcolormaster.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcolorstockmail.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcostattlog.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcostreport.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.FrmGSTR1.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmoperperform.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmperfeff.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpnlconsolidate.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmpurcscan.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmsalerep.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmscanprint.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmstockreport.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.salesordermatured.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.application
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.exe
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.xml
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.pdb
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frmordmonitor.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.Frminvprn.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.RRQRCODE.resources
+G:\bbsap\sapbarcode\obj\x86\Release\sapbarcode.FrmRTGSpymt.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+I:\prod_perf\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcostempmaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmantscan.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmantspacking.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmantsprocessbarcode.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmatt.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcolormaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcolorstockmail.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcostattlog.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcostreport.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmempmaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmGSTR1.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frminvprn.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmopermaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmoperperform.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmordmonitor.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmperfdataentry.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmperfeff.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpnlconsolidate.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprocessjobmaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpurcscan.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmRTGSpymt.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmsalerep.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmscanprint.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmstockreport.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.RRQRCODE.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.salesordermatured.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.exe
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.xml
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.pdb
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.application
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.pdb
+I:\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.xml
+I:\prod_perf\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\CButtonLib.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\office.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Vbe.Interop.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Office.Interop.Excel.xml
+I:\prod_perf\sapbarcode\bin\x86\Release\office.xml
+I:\prod_perf\sapbarcode\bin\x86\Release\stdole.dll
+I:\prod_perf\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.application
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmstylemaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmempCFL.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmsamCFL.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentivecalc.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmitemCFL.resources
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.exe.config
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.exe.manifest
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.application
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.exe
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.pdb
+I:\prod_perf\sapbarcode\bin\Debug\sapbarcode.xml
+I:\prod_perf\sapbarcode\bin\Debug\CarlosAg.ExcelXmlWriter.dll
+I:\prod_perf\sapbarcode\bin\Debug\CButtonLib.dll
+I:\prod_perf\sapbarcode\bin\Debug\Interop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\bin\Debug\Microsoft.Office.Interop.Excel.dll
+I:\prod_perf\sapbarcode\bin\Debug\office.dll
+I:\prod_perf\sapbarcode\bin\Debug\Microsoft.Vbe.Interop.dll
+I:\prod_perf\sapbarcode\bin\Debug\Microsoft.Office.Interop.Excel.xml
+I:\prod_perf\sapbarcode\bin\Debug\office.xml
+I:\prod_perf\sapbarcode\bin\Debug\stdole.dll
+I:\prod_perf\sapbarcode\bin\Debug\AxInterop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\obj\Debug\ResolveAssemblyReference.cache
+I:\prod_perf\sapbarcode\obj\Debug\Interop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\obj\Debug\AxInterop.MSFlexGridLib.dll
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.vbproj.ResolveComReference.cache
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmcostempmaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmantscan.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmantspacking.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmantsprocessbarcode.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmatt.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmbarcoderemote1.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmBOM.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmcolormaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmcolorstockmail.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmcompanymaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmcontbom.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmcostattlog.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmcostreport.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmcustomercare.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmempCFL.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmempmaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmGSTR1.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmincentive.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmincentivecalc.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frminvprn.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmitemCFL.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmlogin.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmmail.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmopermaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmoperperform.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmorderprn.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmordmonitor.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmpackage.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmperfdataentry.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmperfeff.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmpnlconsolidate.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmprocessjobmaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmprofcourier.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmpurcscan.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmRTGSpymt.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmsalerep.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.FrmsamCFL.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmscanprint.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmsrbarcode.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmstockreport.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Frmstylemaster.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmteamdist.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.LoginForm1.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.MDIFORM1.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmbarcode.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.frmbarsettings.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.Resources.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.RRQRCODE.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.salesordermatured.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.SplashScreen1.resources
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.vbproj.GenerateResource.Cache
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.TrustInfo.xml
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.exe.manifest
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.application
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.exe
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.xml
+I:\prod_perf\sapbarcode\obj\Debug\sapbarcode.pdb
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmsparepartsmaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmvehiclemaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmwarrantymaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmworkmaster.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmchart.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmIEReport.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcontractdataentry.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmempCFLnew.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprocessratemast.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmdailycontractdata.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmlineloadrep.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentivegentstailor.resources
+I:\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmREPORTIE_PROD.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe.config
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe.manifest
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.application
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.exe
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.pdb
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\sapbarcode.xml
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\CarlosAg.ExcelXmlWriter.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\CButtonLib.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\Interop.MSFlexGridLib.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\office.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Vbe.Interop.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\office.xml
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\Microsoft.Office.Interop.Excel.xml
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\stdole.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\bin\x86\Release\AxInterop.MSFlexGridLib.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\AxInterop.MSFlexGridLib.dll
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.vbproj.ResolveComReference.cache
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcontractdataentry.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcostempmaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmantscan.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmantspacking.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmantsprocessbarcode.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmatt.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmbarcoderemote1.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmBOM.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcolormaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcolorstockmail.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcompanymaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmcontbom.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcostattlog.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcostreport.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmcustomercare.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmdailycontractdata.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmempCFL.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmempCFLnew.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmempmaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmGSTR1.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmIEReport.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentive.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentivecalc.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmincentivegentstailor.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frminvprn.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmitemCFL.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmlineloadrep.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmlogin.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmmail.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmopermaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmoperperform.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmorderprn.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmordmonitor.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpackage.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmperfdataentry.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmperfeff.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpnlconsolidate.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprocessjobmaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprocessratemast.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmprofcourier.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmpurcscan.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmREPORTIE_PROD.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmRTGSpymt.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmsalerep.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.FrmsamCFL.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmscanprint.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmsparepartsmaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmsrbarcode.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmstockreport.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmstylemaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmteamdist.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmvehiclemaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmwarrantymaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmworkmaster.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.LoginForm1.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.MDIFORM1.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmbarcode.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmbarsettings.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Resources.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.RRQRCODE.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.salesordermatured.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.SplashScreen1.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.vbproj.GenerateResource.Cache
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.TrustInfo.xml
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.exe.manifest
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.application
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.exe
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.xml
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.pdb
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmiewiprep.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.frmlineprodconsolidaterep.resources
+E:\Gdrv_prg\idrv\prod_perf\sapbarcode\obj\x86\Release\sapbarcode.Frmsttarget.resources

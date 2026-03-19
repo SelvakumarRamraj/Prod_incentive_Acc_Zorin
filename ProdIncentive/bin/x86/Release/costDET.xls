@@ -1,0 +1,1274 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>CarlosAg</Author>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ActiveSheet>2</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="In House Cost Sheet">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="55" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Width="183"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="67.5"/>
+   <Column ss:Width="59.25"/>
+   <Column ss:Width="69"/>
+   <Column ss:Index="7" ss:Width="58.5"/>
+   <Column ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="170.25"/>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="9" ss:StyleID="s62"><Data ss:Type="String">ATITHYA CLOTHING COMPANY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="9" ss:StyleID="s65"><Data ss:Type="String">IN HOUSE COST SHEET From 01-12-2017 To 31-12-2017</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Department</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">WareHouse</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Target</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Present</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Wages</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot.Prod</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Avg.Wages</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Manual Ironing</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot_Avg</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">LOAD WOMEN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">28597.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">TOILET CLEANER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">29757.15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">OTHER UNIT</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">12044.11</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MALE SECURITY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">91169.84</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">LOADMAN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">17556.150000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTENANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4398.1099999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">OFFICE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">574648.18999999994</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DRIVER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">226551.15</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FEMALE SECURITY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">127792.7</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTANANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">158737.98000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">CANTEEN</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">42062.38</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ELECTRICAL</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">63864.29</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">EMB</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">87798.83</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">106637</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.82</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">CUTTING</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">480692.03</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">124243</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3.87</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IRONING</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1178891.8799999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9.14</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3800</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8.8800000000000008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">STITCHING</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">824</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4722286.3600000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">138828</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34.020000000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUSING</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">IN HOUSE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">114356.61</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">592276</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.19</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1309</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">7961205.2199999997</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">61.74</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Regular Shirt</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">124362</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">LS Shirt</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4592</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">IN House Total Cost Per Pcs</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">104.61</Data></Cell>
+   </Row>
+   <Row ss:Index="27">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Acct Name</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot.Expenses</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">InHouse Exp.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Prod</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Avg Exp</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BLEACHING &amp; DYEING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">64630</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32315</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PRODUCTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">299361.84000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">299361.84000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2.3199999999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BOILER FIREWOOD</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">77975</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">77975</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FREIGHT AND CARTAGE DIRECT EXP</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">469510</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">234755</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1.82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BANK EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10562.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9243.5400000000009</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">7.0000000000000007E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ELECTRICITY CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">201137</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FREIGHT &amp; CARTAGE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">744960</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">LICENCE FEES, TAX &amp; INSURANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">106545</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">93242.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">POSTAGE &amp; TELEPHONE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">138248</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">13824.8</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PRINTING &amp; STATIONERY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">47099</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">18839.599999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">REPAIRS &amp; MAINTENANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">533653.92000000004</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">467027.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">3.62</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BONUS &amp; COMPENSATION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21768</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">19050.27</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SALES PROMOTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">157447.23000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">STAFF WELFARE EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">378913.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">331606.46000000002</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2.57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ROUNDED OFF</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">-180.02</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SUNDRY EXPENSES OTHERS</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35910.839999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">31427.37</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">TRAVELLING &amp; CONVEYANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">756765</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">75676.5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.59</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL TWO WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1508.84</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1320.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">222547.49</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">194762.44</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1.51</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTENANCE FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">103919.9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">90945.5</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.71</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL HEAVY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179016.67</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">156666.44</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1.21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTENANCE HEAVY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">27711.94</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">24252.1</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RENT EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6500</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">5688.48</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DEPRECIATION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1419866.16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1308965.6599999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">INTEREST ON CAPITAL</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1983941.18</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1983941.18</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">15.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PROFESSIONAL CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">65000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">56884.75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">128954</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.44</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">5527772.4800000004</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">42.87</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <TopRowVisible>43</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>27</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="SubContract Cost Sheet">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="194.25"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="59.25"/>
+   <Column ss:Width="45.75"/>
+   <Column ss:Width="63"/>
+   <Column ss:Index="8" ss:Width="195.75"/>
+   <Row ss:Height="15.75">
+    <Cell ss:MergeAcross="6" ss:StyleID="s62"><Data ss:Type="String">ATITHYA CLOTHING COMPANY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="6" ss:StyleID="s65"><Data ss:Type="String">Sub Contract COST SHEET From 01-12-2017 To 31-12-2017</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Department</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Target</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Present</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Salary</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Wages</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot.Prod</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Avg.Wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SC</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">465604</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">31200853.75</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">79.23</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">31200853.75</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">79.23</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sub Contract Total Cost Per Pcs</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">79.790000000000006</Data></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Acct Name</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot.Expenses</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">SC Exp.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Tot Prod</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Avg Exp</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BLEACHING &amp; DYEING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">64630</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32315</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PRODUCTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">299361.84000000003</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BOILER FIREWOOD</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">77975</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FREIGHT AND CARTAGE DIRECT EXP</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">469510</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">234755</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BANK EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10562.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">408.12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ELECTRICITY CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">201137</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FREIGHT &amp; CARTAGE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">744960</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">LICENCE FEES, TAX &amp; INSURANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">106545</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4116.8999999999996</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">POSTAGE &amp; TELEPHONE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">138248</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">27649.599999999999</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">7.0000000000000007E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PRINTING &amp; STATIONERY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">47099</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">9419.7999999999993</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">REPAIRS &amp; MAINTENANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">533653.92000000004</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20620.39</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">BONUS &amp; COMPENSATION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">21768</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">841.12</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SALES PROMOTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">157447.23000000001</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">STAFF WELFARE EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">378913.86</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14641.23</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">ROUNDED OFF</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">-180.02</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">SUNDRY EXPENSES OTHERS</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">35910.839999999997</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1387.59</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">TRAVELLING &amp; CONVEYANCE</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">756765</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">151353</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.38</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL TWO WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1508.84</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">58.3</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">222547.49</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8599.24</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTENANCE FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">103919.9</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4015.46</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">FUEL HEAVY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">179016.67</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6917.2</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">MAINTENANCE HEAVY</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">27711.94</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1070.79</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">RENT EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6500</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">251.16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">DEPRECIATION</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">1419866.16</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">43303.69</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PROFESSIONAL CHARGES</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">65000</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2511.6</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">393789</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s69"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">219468.03</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0.56000000000000005</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <TopRowVisible>6</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Account Master">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="51" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:Width="169.5"/>
+   <Column ss:Index="6" ss:Width="48.75"/>
+   <Row>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">AcctCode</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">AcctName</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">In House</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Sub Contract</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">WHs</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Ratiowise</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLEACHING &amp; DYEING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000003</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CUTTING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000005</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FABRICATION CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000007</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PRINTING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000009</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">STEAM &amp; COMPACTING</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000011</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">STITCHING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000013</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">IRONING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000015</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PACKING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000017</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PRODUCTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000019</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FOLDING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000021</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">SIZING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000023</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">EMBROIDERY CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000025</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BOILER FIREWOOD</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000027</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">WIP VARIANCE ACCT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000028</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FREIGHT AND CARTAGE DIRECT EXP</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000029</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ELECTRICITY CHARGES DIRECT EXP</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000031</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MERCERISING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000033</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">WEAVING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000035</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CONE WINDING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50020000037</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CHECKING CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50022000001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FORWARDING CHARGES RECEIVED</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050100000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ADVERTISEMENT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050200000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BANK EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050300000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ELECTRICITY CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050400000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FREIGHT &amp; CARTAGE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050500000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">LICENCE FEES, TAX &amp; INSURANCE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050600000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">POSTAGE &amp; TELEPHONE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050700000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PRINTING &amp; STATIONERY</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050800000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">REPAIRS &amp; MAINTENANCE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050904000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">HOUSE RENT ALLOWANCES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50050905000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">OTHER ALLOWANCES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">SALES PROMOTION EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051100000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">STAFF WELFARE EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051110000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">DISCOUNT</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051201000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">ROUNDED OFF</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051203000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">SUNDRY EXPENSES OTHERS</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051300000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TRAVELLING &amp; CONVEYANCE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051401001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FUEL TWO WHEELER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051401002</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MAINTENANCE TWO WHEELER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051402001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FUEL FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051402002</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MAINTENANCE FOUR WHEELER</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051403001</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FUEL HEAVY</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051403002</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">MAINTENANCE HEAVY</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051500000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">RENT EXPENSES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051700000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BAD DEBTS &amp; REBATE</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">N</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051800000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">DONATION</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50051900000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">DEPRECIATION</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50052000000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">INTEREST ON CAPITAL</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50052100000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PARTNERS REMUNERATION</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">50052200000</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PROFESSIONAL CHARGES</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Y</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>44</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,486 @@
+﻿<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<s:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <o:DocumentProperties>
+    <o:Author>CarlosAg</o:Author>
+  </o:DocumentProperties>
+  <s:Styles>
+    <s:Style s:ID="style1">
+      <s:Alignment s:Vertical="Center" />
+      <s:Borders>
+        <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="1" />
+      </s:Borders>
+      <s:Font s:Bold="1" s:Size="12" />
+    </s:Style>
+    <s:Style s:ID="merge">
+      <s:Alignment s:Horizontal="Center" />
+      <s:Font s:Bold="1" s:Size="13" />
+    </s:Style>
+    <s:Style s:ID="style2">
+      <s:Alignment s:Vertical="Top" />
+      <s:Borders>
+        <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="1" />
+      </s:Borders>
+      <s:Font s:Size="10" />
+    </s:Style>
+    <s:Style s:ID="numstyle">
+      <s:Alignment s:Horizontal="Right" />
+      <s:Borders>
+        <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="1" />
+        <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="1" />
+      </s:Borders>
+      <s:Font s:Size="10" />
+    </s:Style>
+  </s:Styles>
+  <s:Worksheet s:Name="SampleSheet">
+    <s:Table>
+      <s:Row>
+        <s:Cell s:MergeAcross="3" s:StyleID="merge">
+          <s:Data s:Type="String">Production Compare and Consolidated Statement</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">u_docdate</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">qty</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">otqty</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">DayQty</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">01-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1902.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1902.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">02-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8752.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8752.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">03-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8820.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8820.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">04-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8460.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8460.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">05-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8447.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8447.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">06-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8218.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8218.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">07-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8289.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8289.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">08-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">2002.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">2002.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">09-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9829.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1597.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8232.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">10-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10407.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1467.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8940.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">11-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10153.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1595.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8558.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">12-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10124.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1524.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8600.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">13-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10014.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1404.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8610.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">14-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9605.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1400.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8205.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">15-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">2001.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">2001.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">16-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9769.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1403.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8366.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">17-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10305.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1298.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9007.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">18-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10599.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1355.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9244.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">19-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10560.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1551.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9009.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">20-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10650.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1548.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9102.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">21-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10612.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1567.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9045.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">22-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8107.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8107.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">23-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10413.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1486.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8927.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">24-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10616.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1519.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9097.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">25-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10829.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1522.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9307.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">26-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10715.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1458.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9257.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">27-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10903.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1455.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9448.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">28-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10792.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1615.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9177.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">29-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8612.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">0.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">8612.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style2">
+          <s:Data s:Type="String">30-09-2024</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">10594.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">1585.000000</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="numstyle">
+          <s:Data s:Type="Number">9009.000000</s:Data>
+        </s:Cell>
+      </s:Row>
+    </s:Table>
+  </s:Worksheet>
+</s:Workbook>

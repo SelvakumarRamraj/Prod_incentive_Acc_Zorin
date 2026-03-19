@@ -1,0 +1,351 @@
+﻿<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<s:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <o:DocumentProperties>
+    <o:Author>CarlosAg</o:Author>
+  </o:DocumentProperties>
+  <s:Styles>
+    <s:Style s:ID="style1">
+      <s:Alignment s:Vertical="Center" />
+      <s:Font s:Bold="1" s:Size="14" />
+    </s:Style>
+    <s:Style s:ID="style1">
+      <s:Alignment s:Vertical="Center" />
+      <s:Font s:Bold="1" s:Size="12" />
+    </s:Style>
+    <s:Style s:ID="style1">
+      <s:Alignment s:Vertical="Top" />
+      <s:Font s:Size="10" />
+    </s:Style>
+  </s:Styles>
+  <s:Worksheet s:Name="SampleSheet">
+    <s:Table>
+      <s:Row>
+        <s:Cell s:StyleID="styleh">
+          <s:Data s:Type="String">PERFORMANCE REPORT</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="stylh2">
+          <s:Data s:Type="String">STITCHING Line No 1 Date from 15-03-2018 To 15-03-2018</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">edate</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">empid</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">empname</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">subdept</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">linno</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">operation</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">mactype</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">sam</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">totprod</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">curprod</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">totmin</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">wtime</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">mcdowntime</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">electricaldowntime</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">other</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">totoffstdtime</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">onstdtime</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">samproduced</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">pper</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">eff</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">tot</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">uttime</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">15-03-2018</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">13387     </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">AMMAPONNU P</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">STITCHING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1                   </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Collar Making</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">snls</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.66</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">728</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">316.8</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">66</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">66</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">15-03-2018</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">13387     </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">AMMAPONNU P</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">STITCHING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1                   </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Collar ready sizing</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">snls</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.109</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">550</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">325</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">35.425</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">7</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">7</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">15-03-2018</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">4391      </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">ALAGUPANDI M</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">STITCHING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1                   </s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Collar Band Hemming</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">snls</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.317</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1512</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1005</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">318.585</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">66</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">66</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+    </s:Table>
+  </s:Worksheet>
+</s:Workbook>

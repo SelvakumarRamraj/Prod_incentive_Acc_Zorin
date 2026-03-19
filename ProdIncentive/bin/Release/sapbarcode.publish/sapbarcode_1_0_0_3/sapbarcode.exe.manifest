@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="sapbarcode.exe" version="1.0.0.3" publicKeyToken="9f8b0a9f85f8f9b8" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="MISC25.ICO" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="sapbarcode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="sapbarcode.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MSFlexGridLib.dll" size="49152">
+      <assemblyIdentity name="AxInterop.MSFlexGridLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xH+/gqUOd9wm79Z9QuG2TePBd8g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CButtonLib.dll" size="114688">
+      <assemblyIdentity name="CButtonLib" version="1.0.3808.27822" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>k29dFCXhzvSVozjvIL7px/xKFag=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSFlexGridLib.dll" size="61440">
+      <assemblyIdentity name="Interop.MSFlexGridLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>30zt15H6DKJKDb/33EcMe8Bm5nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sapbarcode.exe" size="307200">
+      <assemblyIdentity name="sapbarcode" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>151xbEBQowxuL5zFHr4DiyRBcDU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="25592">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Y2zHc8WFhzYFzpbCnF917VCW6mM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MISC25.ICO" size="1078">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LD/X3B0Ei4sKuEm1KWGK0QllRSU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=EDP-SELVA-PC\Selva" issuerKeyHash="009adb16be0f12f2a1cb01a5f521b2126672f28f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>cSFfEQxBpZBd9/ePNQF1B41Mrlg=</DigestValue></Reference></SignedInfo><SignatureValue>Nk3hQBFXJftUr35XXYpthoRu6mvgMJnFhdIiS1o5gSh2oo0BX8ekev04CfWDImn+y3YAZjNc0sWS9H5XGQDSOY65zg5dhitv/cp6j3h0nDqBoiccuQjWpHY7Qx7l3rwUWzi4A4AZY3cueo4ZZXpfd0g1i7VXA7rle4tnnfQ5hhc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1WX1NQpA/1ERxIYd/MsQ4gb/0uPwl9a3m6p3b4ZXkXxku2jBZMmHbhXbrkpRk0WfugvCj88lWZdon4/xxdrOlSKlMHRNzETki9r5O9x+pl4wWsgTkdcv8Ezn6gG0jaNtPBKK+oii16yRV+v6tHne1JbmvHbGmrx0hjGub/Nz/DM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="58ae4c8d077501358ff7f75d90a5410c115f2171" Description="" Url=""><as:assemblyIdentity name="sapbarcode.exe" version="1.0.0.3" publicKeyToken="9f8b0a9f85f8f9b8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=EDP-SELVA-PC\Selva</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>iWpQ/Yl2T2kVA607XbiS4pXBOu0=</DigestValue></Reference></SignedInfo><SignatureValue>xQDzr0cznI3YPlhw7xRDmcgx+M/K/YzWp7JQiRirH3T+q+KoG9M0cFe9eJvAGN17f4rzqJnNe99xWT3nrLV2Iv67DqlvHtY17BVLcExEvfWbYb8cJcgg80rEoKJVRZ7SXWUV9u6CXKrpqsYb6LO5MxaXzY/Z2LG9kv7pjc9VK4Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1WX1NQpA/1ERxIYd/MsQ4gb/0uPwl9a3m6p3b4ZXkXxku2jBZMmHbhXbrkpRk0WfugvCj88lWZdon4/xxdrOlSKlMHRNzETki9r5O9x+pl4wWsgTkdcv8Ezn6gG0jaNtPBKK+oii16yRV+v6tHne1JbmvHbGmrx0hjGub/Nz/DM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUagAwIBAgIQYc070VRJxIFGae67gj+xRTAJBgUrDgMCHQUAMC8xLTArBgNVBAMeJABFAEQAUAAtAFMARQBMAFYAQQAtAFAAQwBcAFMAZQBsAHYAYTAeFw0xNDAyMjAxMDU2MTBaFw0xNTAyMjAxNjU2MTBaMC8xLTArBgNVBAMeJABFAEQAUAAtAFMARQBMAFYAQQAtAFAAQwBcAFMAZQBsAHYAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1WX1NQpA/1ERxIYd/MsQ4gb/0uPwl9a3m6p3b4ZXkXxku2jBZMmHbhXbrkpRk0WfugvCj88lWZdon4/xxdrOlSKlMHRNzETki9r5O9x+pl4wWsgTkdcv8Ezn6gG0jaNtPBKK+oii16yRV+v6tHne1JbmvHbGmrx0hjGub/Nz/DMCAwEAATAJBgUrDgMCHQUAA4GBAJQzvvCy62tq8enchLnUuBJLUzai92sKNzfwZkrvPUYQ7h8GhuWyEwwVY6ocx5xVRr0mt2wYq79vMzNOvOnknloWW2tUBlE00HIxmhh/MRq1fyCkTMBuTfzV1S+rBfNG5CZbrkZNPcYrt+Z0UpulAcn4Cct0bfAcymbva9AHD6gP</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

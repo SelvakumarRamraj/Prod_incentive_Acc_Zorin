@@ -1,0 +1,1038 @@
+﻿<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<s:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <o:DocumentProperties>
+    <o:Author>CarlosAg</o:Author>
+  </o:DocumentProperties>
+  <s:Styles>
+    <s:Style s:ID="style1">
+      <s:Alignment s:Vertical="Top" />
+      <s:Font s:Size="10" />
+    </s:Style>
+  </s:Styles>
+  <s:Worksheet s:Name="SampleSheet">
+    <s:Table>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Department</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">WareHouse</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Target</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Tot Present</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Tot Wages</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Tot.Prod</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Avg.Wages</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Manual Ironing</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Tot_Avg</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">CANTEEN</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">6</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">42062.38</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">OTHER UNIT</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">2</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">12044.11</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">TOILET CLEANER</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">6</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">29757.15</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">MALE SECURITY</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">12</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">91169.84</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">DRIVER</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">21</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">226551.15</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">OFFICE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">41</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">574648.19</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">LOAD WOMEN</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">5</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">28597.46</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">MAINTENANCE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">4398.11</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">MAINTANANCE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">33</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">158737.98</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">LOADMAN</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">3</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">17556.15</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">ELECTRICAL</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">6</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">63864.29</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FEMALE SECURITY</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">21</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">127792.70</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">EMB</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">13</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">87798.83</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">106637</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.82</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">CUTTING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">86</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">480692.03</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">124243</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">3.87</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IRONING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">210</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">1178891.88</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">9.14</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">3800.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">8.88</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">STITCHING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">824</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">4722286.36</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">138828</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">34.02</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FUSING</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">IN HOUSE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">19</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">114356.61</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">592276</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.19</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+      </s:Row>
+      <s:Row />
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Total</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1309</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">7961205.22</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Integer">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">61.74</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row />
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Acct Name</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">Tot.Expenses</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">InHouse Exp.</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">Tot Prod</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">Avg Exp</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">BLEACHING &amp; DYEING CHARGES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">64630.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">32315.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.25</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">PRODUCTION EXPENSES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">299361.84</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">299361.84</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">2.32</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">BOILER FIREWOOD</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">77975.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">77975.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.60</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FREIGHT AND CARTAGE DIRECT EXP</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">469510.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">234755.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1.82</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">BANK EXPENSES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">10562.23</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">9243.54</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.07</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">ELECTRICITY CHARGES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">201137.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FREIGHT &amp; CARTAGE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">744960.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">LICENCE FEES, TAX &amp; INSURANCE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">106545.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">93242.86</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.72</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">POSTAGE &amp; TELEPHONE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">138248.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">13824.80</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.11</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">PRINTING &amp; STATIONERY</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">47099.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">18839.60</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.15</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">REPAIRS &amp; MAINTENANCE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">533653.92</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">467027.23</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">3.62</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">BONUS &amp; COMPENSATION</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">21768.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">19050.27</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.15</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">SALES PROMOTION EXPENSES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">157447.23</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.00</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">STAFF WELFARE EXPENSES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">378913.86</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">331606.46</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">2.57</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">ROUNDED OFF</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">-180.02</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">SUNDRY EXPENSES OTHERS</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">35910.84</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">31427.37</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.24</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">TRAVELLING &amp; CONVEYANCE</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">756765.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">75676.50</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.59</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FUEL TWO WHEELER</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1508.84</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1320.46</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.01</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FUEL FOUR WHEELER</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">222547.49</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">194762.44</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1.51</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">MAINTENANCE FOUR WHEELER</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">103919.90</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">90945.50</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.71</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">FUEL HEAVY</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">179016.67</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">156666.44</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1.21</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">MAINTENANCE HEAVY</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">27711.94</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">24252.10</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.19</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">RENT EXPENSES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">6500.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">5688.48</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.04</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">DEPRECIATION</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1419866.16</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1308965.66</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">10.15</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">INTEREST ON CAPITAL</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1983941.18</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">1983941.18</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">15.38</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">PROFESSIONAL CHARGES</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">65000.00</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">56884.75</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">128954</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">0.44</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row />
+      <s:Row>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String" />
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="String">Total</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">5527772.48</s:Data>
+        </s:Cell>
+        <s:Cell s:StyleID="style1">
+          <s:Data s:Type="Number">42.87</s:Data>
+        </s:Cell>
+      </s:Row>
+    </s:Table>
+  </s:Worksheet>
+</s:Workbook>
