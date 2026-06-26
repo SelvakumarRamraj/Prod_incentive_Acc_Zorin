@@ -2162,6 +2162,10 @@ Module Module1
             ldir = System.AppDomain.CurrentDomain.BaseDirectory()
             lmdir = Trim(ldir) & "Perfrep.xls"
         Else
+            'Dim desktop As String = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+
+            'Dim linpath As String = IO.Path.Combine(desktop, "MyApp", "prodincentive")
+
             lmdir = mxlfilepath & "Perfrep.xls"
         End If
 
@@ -3494,16 +3498,23 @@ Module Module1
 
 
     Public Function getDataReader(ByVal SQL As String) As SqlDataReader
-        If con.State = ConnectionState.Closed Then
-            con.Open()
-        End If
+        'If con.State = ConnectionState.Closed Then
+        '    con.Open()
+        'End If
 
-        Dim cmd As New SqlCommand(SQL, con)
-        Dim dr As SqlDataReader
-        'dr = cmd.ExecuteReader
-        dr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
-        Return dr
+        'Dim cmd As New SqlCommand(SQL, con)
+        'Dim dr As SqlDataReader
+        ''dr = cmd.ExecuteReader
+        'dr = cmd.ExecuteReader(CommandBehavior.CloseConnection)
+        'Return dr
 
+
+
+        Dim conLocal As New SqlConnection(constr)
+        Dim cmd As New SqlCommand(SQL, conLocal)
+
+        conLocal.Open()
+        Return cmd.ExecuteReader(CommandBehavior.CloseConnection)
     End Function
 
     Public Function getDataTableold(ByVal SQL As String) As DataTable
@@ -4094,31 +4105,114 @@ Module Module1
         style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
         style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
 
+
+        style = book.Styles.Add("numstyle2")
+        style.Font.Bold = False
+        style.Font.Size = 10
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+        style.NumberFormat = "###0.00"
+
+
+        style = book.Styles.Add("totalstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Left
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+
+
+        style = book.Styles.Add("totalnumstyle2")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "###0.00"
+
+        style = book.Styles.Add("totalnumstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "#0"
+
+
         'Export Each Row Start
         For i As Integer = 0 To CTRL.Rows.Count - 1
             'Dim Row0 As WorksheetRow = sheet.Table.Rows.Add
             Row = sheet.Table.Rows.Add
-            ' Dim columnIndex As Integer = 0
-            'Do Until columnIndex = columnsCount
+
+            'Dim StyleName As String = "style2"
+            'Dim NumStyleName As String = "numstyle2"
+
+            ''Check DataGridView Row Color
+            'If CTRL.Rows(i).DefaultCellStyle.BackColor = Color.Navy Then
+            '    StyleName = "totalstyle"
+            '    NumStyleName = "totalstyle"
+            'End If
+
+            Dim StyleName As String = "style2"
+            Dim NumStyleName2 As String = "numstyle2"
+            Dim NumStyleName As String = "numstyle"
+
+            If CTRL.Rows(i).Cells("nempno").Value IsNot Nothing Then
+
+                If CTRL.Rows(i).Cells("nempno").Value.ToString.Trim.ToUpper = "TOTAL" Then
+                    StyleName = "totalstyle"
+                    NumStyleName = "totalnumstyle"
+                    NumStyleName2 = "totalnumstyle2"
+                End If
+
+            End If
+
+
+
+
+
             For columnIndex As Integer = 0 To column - 1
                 '- (lastcol - 1)
                 'Row.Cells.Add(CTRL.Item(columnIndex, i).Value.ToString & vbNullString, DataType.String, "style2")
-
-                If CTRL.Item(columnIndex, i).ValueType.ToString = "System.String" Then
-                    Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
-                    'Row.Cells.Add((CTRL.Item(columnIndex, i).Value.ToString & vbNullString), DataType.String, "style2")
-                ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Decimal" Then
-                    'Row.Cells.Add(Microsoft.VisualBasic.Format(Val(CTRL.Item(columnIndex, i).Value.ToString), "########0"), DataType.Number, "numstyle")
-                    Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, 0, CTRL.Item(columnIndex, i).Value), DataType.Number, "numstyle")
-                ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.DateTime" Then
-                    'Row.Cells.Add(CTRL.Item(columnIndex, i).Value.ToString & vbNullString, DataType.String, "style2")
-                    If Len(Trim(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value))) > 0 Then
-                        Row.Cells.Add(Microsoft.VisualBasic.Format(CDate(CTRL.Item(columnIndex, i).Value.ToString & vbNullString), "dd-MM-yyyy"), DataType.String, "style2")
-                    End If
+                'If CTRL.Item(0, i).Value Is Nothing Or CTRL.Item(0, i).Value = "" Then
+                If IsDBNull(CTRL.Item(0, i).Value) OrElse CTRL.Item(0, i).Value Is Nothing OrElse CTRL.Item(0, i).Value.ToString.Trim = "" Then
 
                 Else
-                    Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
-                    'Row.Cells.Add((CTRL.Item(columnIndex, i).Value.ToString & vbNullString), DataType.String, "style2")
+                    If CTRL.Item(columnIndex, i).ValueType Is Nothing Then
+                        Row.Cells.Add("", DataType.String, StyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.String" Then
+                        'Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
+                        Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, StyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Double" Then
+
+                        'Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, "numstyle2")
+                        Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, NumStyleName2)
+
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Int32" Then
+                        'Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, 0, CTRL.Item(columnIndex, i).Value), DataType.Number, "numstyle")
+                        Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, 0, CTRL.Item(columnIndex, i).Value), DataType.Number, NumStyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.DateTime" Then
+                        'Row.Cells.Add(CTRL.Item(columnIndex, i).Value.ToString & vbNullString, DataType.String, "style2")
+                        If Len(Trim(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value))) > 0 Then
+                            Row.Cells.Add(Microsoft.VisualBasic.Format(CDate(CTRL.Item(columnIndex, i).Value.ToString & vbNullString), "dd-MM-yyyy"), DataType.String, "style2")
+                        End If
+
+                    Else
+                        ' Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
+
+                        Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), "", CTRL.Item(columnIndex, i).Value), DataType.String, StyleName)
+
+                    End If
                 End If
                 'style.Interior.Color = System.Drawing.ColorTranslator.ToOle(CTRL.Rows(i).Cells(J).Style.BackColor)
                 'style.Font.Color = System.Drawing.ColorTranslator.ToOle(CTRL.Rows(i).Cells(J).Style.ForeColor)
@@ -4144,6 +4238,268 @@ Module Module1
 
         'Console.WriteLine("Time:{0}", (Environment.TickCount - ticks))
     End Sub
+
+    Public Sub gridexcelexport5(ByVal CTRL As DataGridView, ByVal lastcol As Integer, ByVal fname As String, ByVal mhead As String)
+
+
+        Dim ldir, lmdir As String
+        'dir = System.Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)
+        'mdir = Trim(dir) & "\barcodadd.txt"
+
+        If mos = "WIN" Then
+            ldir = System.AppDomain.CurrentDomain.BaseDirectory()
+            lmdir = Trim(ldir) & Trim(fname) & ".xls"
+        Else
+
+            lmdir = mxlfilepath & Trim(fname) & ".xls"
+        End If
+
+        Dim ticks As Integer = Environment.TickCount
+        ' Create the workbook
+        Dim book As Workbook = New Workbook
+        ' Set the author
+        book.Properties.Author = "CarlosAg"
+
+        ' Add some style
+        Dim style As WorksheetStyle = book.Styles.Add("style1")
+        style.Font.Bold = True
+        style.Font.Size = 12
+        style.Alignment.Vertical = StyleVerticalAlignment.Center
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+
+        Dim sheet As Worksheet = book.Worksheets.Add("SampleSheet")
+        'Dim style2 As WorksheetStyle = book.Styles.Add("style2")
+
+        style = book.Styles.Add("merge")
+        style.Font.Bold = True
+        style.Font.Size = 13
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Center
+
+        'style2.Font.Bold = False
+        If Len(Trim(mhead)) > 0 Then
+            Dim Row2 As WorksheetRow = sheet.Table.Rows.Add
+            'Row2.Cells.Add(mhead, DataType.String, "merge")
+            Dim cell As WorksheetCell = Row2.Cells.Add(mhead)
+            cell.MergeAcross = CTRL.ColumnCount - 1
+            cell.StyleID = "merge"
+        End If
+
+        'Export Header Names Start
+        Dim columnsCount As Integer = CTRL.Columns.Count - 1
+
+        Dim Row As WorksheetRow = sheet.Table.Rows.Add
+        'Dim column As Integer = 0
+        Dim column = CTRL.Columns.Count
+        style.Font.Bold = True
+
+
+
+        For iC As Integer = 0 To column - 1
+            '- lastcol
+            'Do Until column = columnsCount - lastcol
+            Row.Cells.Add(CTRL.Columns(iC).HeaderText & vbNullString, DataType.String, "style1")
+
+
+        Next
+        'Export Header Name End
+        style = book.Styles.Add("style2")
+        style.Font.Bold = False
+        style.Font.Size = 10
+        style.Alignment.Vertical = StyleVerticalAlignment.Top
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+
+        style = book.Styles.Add("numstyle")
+        style.Font.Bold = False
+        style.Font.Size = 10
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+        style.NumberFormat = "#0"
+
+        style = book.Styles.Add("numstyle2")
+        style.Font.Bold = False
+        style.Font.Size = 10
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+        style.NumberFormat = "###0.00"
+
+
+        style = book.Styles.Add("totalstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Left
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+        style.NumberFormat = "#0"
+
+        style = book.Styles.Add("totalnumstyle2")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "###0.00"
+
+        style = book.Styles.Add("totalnumstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#000080"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "#0"
+
+
+        style = book.Styles.Add("ntotalstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#556B2F"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Left
+        style.Borders.Add(StylePosition.Bottom, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Right, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Top, LineStyleOption.Continuous, 1)
+        style.Borders.Add(StylePosition.Left, LineStyleOption.Continuous, 1)
+        style.NumberFormat = "#0"
+
+        style = book.Styles.Add("ntotalnumstyle2")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#556B2F"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "###0.00"
+
+        style = book.Styles.Add("ntotalnumstyle")
+        style.Font.Bold = True
+        style.Font.Size = 10
+        style.Font.Color = "White"
+        style.Interior.Color = "#556B2F"
+        style.Interior.Pattern = StyleInteriorPattern.Solid
+        style.Alignment.Horizontal = StyleHorizontalAlignment.Right
+        style.NumberFormat = "#0"
+
+
+
+
+        'Export Each Row Start
+        For i As Integer = 0 To CTRL.Rows.Count - 1
+            'Dim Row0 As WorksheetRow = sheet.Table.Rows.Add
+            Row = sheet.Table.Rows.Add
+
+            'Dim StyleName As String = "style2"
+            'Dim NumStyleName As String = "numstyle2"
+
+            ''Check DataGridView Row Color
+            'If CTRL.Rows(i).DefaultCellStyle.BackColor = Color.Navy Then
+            '    StyleName = "totalstyle"
+            '    NumStyleName = "totalstyle"
+            'End If
+
+            Dim StyleName As String = "style2"
+            Dim NumStyleName2 As String = "numstyle2"
+            Dim NumStyleName As String = "numstyle"
+
+            If CTRL.Rows(i).Cells("vname").Value IsNot Nothing Then
+
+                If CTRL.Rows(i).Cells("vname").Value.ToString.Trim.ToUpper = "TOTAL" Then
+                    StyleName = "totalstyle"
+                    NumStyleName = "totalnumstyle"
+                    NumStyleName2 = "totalnumstyle2"
+                End If
+
+                If CTRL.Rows(i).Cells("vname").Value.ToString.Trim.ToUpper = "DATE TOTAL" Then
+                    StyleName = "ntotalstyle"
+                    NumStyleName = "ntotalnumstyle"
+                    NumStyleName2 = "ntotalnumstyle2"
+                End If
+
+
+            End If
+
+
+
+
+
+            For columnIndex As Integer = 0 To column - 1
+                '- (lastcol - 1)
+                'Row.Cells.Add(CTRL.Item(columnIndex, i).Value.ToString & vbNullString, DataType.String, "style2")
+                'If CTRL.Item(0, i).Value Is Nothing Or CTRL.Item(0, i).Value = "" Then
+                If IsDBNull(CTRL.Item(0, i).Value) OrElse CTRL.Item(0, i).Value Is Nothing OrElse CTRL.Item(0, i).Value.ToString.Trim = "" Then
+
+                Else
+                    If CTRL.Item(columnIndex, i).ValueType Is Nothing Then
+                        Row.Cells.Add("", DataType.String, StyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.String" Then
+                        'Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
+                        Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, StyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Double" Then
+
+                        'Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, "numstyle2")
+                        Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, NumStyleName2)
+
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Decimal" Then
+
+                        'Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, "numstyle2")
+                        Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), 0D, CDbl(CTRL.Item(columnIndex, i).Value)), DataType.Number, NumStyleName2)
+
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.Int32" Then
+                        'Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, 0, CTRL.Item(columnIndex, i).Value), DataType.Number, "numstyle")
+                        Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, 0, CTRL.Item(columnIndex, i).Value), DataType.Number, NumStyleName)
+                    ElseIf CTRL.Item(columnIndex, i).ValueType.ToString = "System.DateTime" Then
+                        'Row.Cells.Add(CTRL.Item(columnIndex, i).Value.ToString & vbNullString, DataType.String, "style2")
+                        If Len(Trim(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value))) > 0 Then
+                            Row.Cells.Add(Microsoft.VisualBasic.Format(CDate(CTRL.Item(columnIndex, i).Value.ToString & vbNullString), "dd-MM-yyyy"), DataType.String, StyleName)
+                        End If
+
+                    Else
+                        ' Row.Cells.Add(IIf(IsDBNull(CTRL.Item(columnIndex, i).Value) = True, "", CTRL.Item(columnIndex, i).Value), DataType.String, "style2")
+
+                        Row.Cells.Add(If(IsDBNull(CTRL.Item(columnIndex, i).Value), "", CTRL.Item(columnIndex, i).Value), DataType.String, StyleName)
+
+                    End If
+                End If
+
+            Next
+            'Loop
+        Next
+
+
+
+
+        'book.Save("c:\test.xls")
+        book.Save(lmdir)
+
+        If mos = "WIN" Then
+            'open file
+            Process.Start(lmdir)
+        Else
+            OpenWithLibreOffice(lmdir)
+        End If
+
+
+        'Console.WriteLine("Time:{0}", (Environment.TickCount - ticks))
+    End Sub
+
 
     Public Sub ReleaseComObject(ByVal obj As Object)
         Try
@@ -4260,18 +4616,34 @@ Module Module1
 
     End Sub
     Public Sub OpenWithLibreOffice(filePath As String)
+        'If Not IO.File.Exists(filePath) Then
+        '    MessageBox.Show("File not found")
+        '    Exit Sub
+        'End If
+
+        'Dim psi As New ProcessStartInfo()
+        'psi.FileName = "cmd.exe"
+        'psi.Arguments = "/c libreoffice --calc """ & filePath & """"
+        'psi.CreateNoWindow = True
+        'psi.UseShellExecute = False
+
+        'Process.Start(psi)
+
+
         If Not IO.File.Exists(filePath) Then
             MessageBox.Show("File not found")
             Exit Sub
         End If
 
         Dim psi As New ProcessStartInfo()
-        psi.FileName = "cmd.exe"
-        psi.Arguments = "/c libreoffice --calc """ & filePath & """"
-        psi.CreateNoWindow = True
+        psi.FileName = "/usr/bin/xdg-open"
+        psi.Arguments = """" & filePath & """"
         psi.UseShellExecute = False
+        psi.CreateNoWindow = True
 
         Process.Start(psi)
+
+
     End Sub
     Public Sub OpenCalcDirect(filePath As String)
         Process.Start("libreoffice", "--calc """ & filePath & """")

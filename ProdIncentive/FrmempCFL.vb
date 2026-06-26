@@ -20,6 +20,7 @@ Public Class FrmempCFL
         dgvGrid.Rows.Clear()
         'Dim query As String
         dt = getDataTable(msql)
+
     End Sub
     Private Sub AddGridViewColumns()
         Call loaddt()
@@ -70,6 +71,7 @@ Public Class FrmempCFL
             dgvGrid.Columns.Add(dggrad)
 
             dgvGrid.DataSource = dt
+            dt.Dispose()
         Catch ex As Exception
             'ErrorLogClass.SendError(ex, Me.formName, "AddGridViewColumns")
         End Try

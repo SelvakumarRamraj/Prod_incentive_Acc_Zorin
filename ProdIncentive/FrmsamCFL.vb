@@ -41,6 +41,7 @@ Public Class FrmsamCFL
         dgvGrid.Rows.Clear()
         'Dim query As String
         dt = getDataTable(msql)
+
     End Sub
     Private Sub AddGridViewColumns()
         'mkstyle = cmbstyle.Text.Replace("FULL", "").Replace("HALF", "").Replace("-", "")
@@ -93,6 +94,7 @@ Public Class FrmsamCFL
             dgvGrid.Columns.Add(dggrade)
 
             dgvGrid.DataSource = dt
+            dt.Dispose()
         Catch ex As Exception
             'ErrorLogClass.SendError(ex, Me.formName, "AddGridViewColumns")
         End Try
@@ -103,15 +105,23 @@ Public Class FrmsamCFL
     End Sub
     Private Sub loadstyle()
         Dim query = "Select style From " & Trim(mcostdbnam) & ".dbo.stylemaster"
-        Dim dr As sqlDataReader
-        dr = getDataReader(query)
-        'dr.Read()
+        'Dim dr As sqlDataReader
+        'dr = getDataReader(query)
+        ''dr.Read()
+        'cmbstyle.Items.Clear()
+        'If dr.HasRows = True Then
+        '    While dr.Read
+        '        cmbstyle.Items.Add(dr.Item("style"))
+        '    End While
+        'End If
+
         cmbstyle.Items.Clear()
-        If dr.HasRows = True Then
-            While dr.Read
-                cmbstyle.Items.Add(dr.Item("style"))
+        Using dr4 As SqlDataReader = getDataReader(query)
+            While dr4.Read()
+                cmbstyle.Items.Add(dr4("style").ToString())
             End While
-        End If
+        End Using
+
 
         'o_id = dr("operid")
         'dr.Close()

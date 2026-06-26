@@ -39,12 +39,13 @@ Partial Class MDIFORM1
         Me.IEWIPReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LinewiseProductionCosolidateReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LineCostToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TailorAttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem6 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MailToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ColorStockMailToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RTGSMailToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TailorAttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PieceRateTailorReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -134,7 +135,7 @@ Partial Class MDIFORM1
         '
         'ToolStripMenuItem1
         '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IEReportToolStripMenuItem, Me.LinewiseLoadingReportToolStripMenuItem, Me.DdToolStripMenuItem, Me.ProductionReportToolStripMenuItem, Me.IEWIPReportToolStripMenuItem, Me.LinewiseProductionCosolidateReportToolStripMenuItem, Me.LineCostToolStripMenuItem, Me.TailorAttendanceToolStripMenuItem})
+        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IEReportToolStripMenuItem, Me.LinewiseLoadingReportToolStripMenuItem, Me.DdToolStripMenuItem, Me.ProductionReportToolStripMenuItem, Me.IEWIPReportToolStripMenuItem, Me.LinewiseProductionCosolidateReportToolStripMenuItem, Me.LineCostToolStripMenuItem, Me.TailorAttendanceToolStripMenuItem, Me.PieceRateTailorReportToolStripMenuItem})
         Me.ToolStripMenuItem1.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(64, 20)
@@ -182,6 +183,12 @@ Partial Class MDIFORM1
         Me.LineCostToolStripMenuItem.Size = New System.Drawing.Size(290, 22)
         Me.LineCostToolStripMenuItem.Text = "Line Cost "
         '
+        'TailorAttendanceToolStripMenuItem
+        '
+        Me.TailorAttendanceToolStripMenuItem.Name = "TailorAttendanceToolStripMenuItem"
+        Me.TailorAttendanceToolStripMenuItem.Size = New System.Drawing.Size(290, 22)
+        Me.TailorAttendanceToolStripMenuItem.Text = "Tailor Attendance"
+        '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MailToolStripMenuItem, Me.ColorStockMailToolStripMenuItem, Me.RTGSMailToolStripMenuItem})
@@ -221,11 +228,11 @@ Partial Class MDIFORM1
         Me.QuitToolStripMenuItem1.Size = New System.Drawing.Size(45, 20)
         Me.QuitToolStripMenuItem1.Text = "Quit"
         '
-        'TailorAttendanceToolStripMenuItem
+        'PieceRateTailorReportToolStripMenuItem
         '
-        Me.TailorAttendanceToolStripMenuItem.Name = "TailorAttendanceToolStripMenuItem"
-        Me.TailorAttendanceToolStripMenuItem.Size = New System.Drawing.Size(290, 22)
-        Me.TailorAttendanceToolStripMenuItem.Text = "Tailor Attendance"
+        Me.PieceRateTailorReportToolStripMenuItem.Name = "PieceRateTailorReportToolStripMenuItem"
+        Me.PieceRateTailorReportToolStripMenuItem.Size = New System.Drawing.Size(290, 22)
+        Me.PieceRateTailorReportToolStripMenuItem.Text = "PieceRate Tailor Report"
         '
         'MDIFORM1
         '
@@ -271,4 +278,5 @@ Partial Class MDIFORM1
     Friend WithEvents LineCostToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ShirtDailyEntryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TailorAttendanceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PieceRateTailorReportToolStripMenuItem As ToolStripMenuItem
 End Class

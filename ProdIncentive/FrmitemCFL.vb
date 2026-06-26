@@ -44,6 +44,7 @@ Public Class FrmitemCFL
             'dgvGrid.Columns.Add(dgvid)
             'dgvGrid.Columns.Add(dgsal)
             dgvGrid.DataSource = dt
+            dt.Dispose()
         Catch ex As Exception
             'ErrorLogClass.SendError(ex, Me.formName, "AddGridViewColumns")
         End Try

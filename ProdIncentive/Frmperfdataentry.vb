@@ -4,6 +4,7 @@ Imports System.Data.SqlClient
 Imports System.IO
 Imports System.Text
 Imports System.Text.RegularExpressions
+Imports System.Threading.Tasks
 Public Class Frmperfdataentry
     Dim i, j, msel, o_id, n As Integer
     Dim MSQL, qry, dqry1, dqry2, merr As String
@@ -33,7 +34,7 @@ Public Class Frmperfdataentry
         'cmbbrand.Items.Add("COOL COTTON")
         'cmbbrand.Items.Add("SPECIAL")
 
-        Call loadbrand()
+
 
 
         For i = 1 To 30
@@ -42,44 +43,87 @@ Public Class Frmperfdataentry
         cmbline.Items.Add("100")
         cmbline.Items.Add("200")
         cmbline.Items.Add("GENERAL")
-
-        Call cancel()
-        Call loadstyle()
+        'Call loadbrand()
+        'Call cancel()
+        'Call loadstyle()
         Call loadhead()
+        Cursor = Cursors.WaitCursor
+
+        Task.Run(Sub()
+                     ' Load data in background
+                     loadbrand()
+                     loadstyle()
+                     'loadhead()
+
+                     ' Update UI safely if needed
+                     Me.Invoke(Sub()
+                                   Cursor = Cursors.Default
+                               End Sub)
+                 End Sub)
+
+
     End Sub
 
     Private Sub loadstyle()
         Dim query = "Select style From " & Trim(mcostdbnam) & ".dbo.stylemaster"
-        Dim dr As SqlDataReader
-        dr = getDataReader(query)
-        'dr.Read()
-        cmbstyle.Items.Clear()
-        If dr.HasRows = True Then
-            While dr.Read
-                cmbstyle.Items.Add(dr.Item("style"))
+
+
+        'cmbstyle.Items.Clear()
+        'Using dr1 As SqlDataReader = getDataReader(query)
+        '    While dr1.Read()
+        '        cmbstyle.Items.Add(dr1("style").ToString())
+        '    End While
+        'End Using
+
+        Dim styles As New List(Of String)
+        Using dr As SqlDataReader = getDataReader(query)
+            While dr.Read()
+                styles.Add(dr("style").ToString())
             End While
+        End Using
+
+        If cmbbrand.InvokeRequired Then
+            cmbbrand.Invoke(Sub()
+                                cmbbrand.Items.Clear()
+                                cmbbrand.Items.AddRange(styles.ToArray())
+                            End Sub)
+        Else
+            cmbbrand.Items.Clear()
+            cmbbrand.Items.AddRange(styles.ToArray())
         End If
 
-        'o_id = dr("operid")
-        'dr.Close()
 
-        'Return o_id
+
+
     End Sub
 
     Private Sub loadbrand()
         Dim query = "Select brand From " & Trim(mcostdbnam) & ".dbo.incentivemaster group by brand"
-        Dim dr As SqlDataReader
-        dr = getDataReader(query)
-        'dr.Read()
-        cmbbrand.Items.Clear()
-        If dr.HasRows = True Then
-            While dr.Read
-                cmbbrand.Items.Add(dr.Item("brand"))
+
+        'cmbbrand.Items.Clear()
+        'Using dr As SqlDataReader = getDataReader(query)
+        '    While dr.Read()
+        '        cmbbrand.Items.Add(dr("brand").ToString())
+        '    End While
+        'End Using
+
+        Dim brands As New List(Of String)
+        Using dr As SqlDataReader = getDataReader(query)
+            While dr.Read()
+                brands.Add(dr("brand").ToString())
             End While
+        End Using
+
+        If cmbbrand.InvokeRequired Then
+            cmbbrand.Invoke(Sub()
+                                cmbbrand.Items.Clear()
+                                cmbbrand.Items.AddRange(brands.ToArray())
+                            End Sub)
+        Else
+            cmbbrand.Items.Clear()
+            cmbbrand.Items.AddRange(brands.ToArray())
         End If
 
-        'o_id = dr("operid")
-        dr.Close()
 
         'Return o_id
     End Sub
@@ -363,6 +407,7 @@ Public Class Frmperfdataentry
         msel = 0
         cmdsave.Enabled = False
         Dg.Rows.Clear()
+        mskdate.Text = Format(Now, "dd-MM-yyyy")
     End Sub
 
     Private Sub cmdadd_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdadd.Click
@@ -556,6 +601,9 @@ Public Class Frmperfdataentry
                                 & " Values (" & Val(txtno.Text) & ",'" & Trim(cmbline.Text) & "','" & Format(CDate(mskdate.Text), "yyyy-MM-dd") & "','" & Trim(cmbstyle.Text) & "','" & Trim(cmbcol.Text) & "','" & Trim(txtitem.Text) & "'" & vbCrLf _
                                 & ",'" & Trim(cmbprocess.Text) & "','" & Trim(cmbbrand.Text) & "'," & Val(txtprodqty.Text) & "," & Val(txtrejqty.Text) & "," & Val(txtnomac.Text) & "," & Val(txtmergno.Text) & ")"
 
+                If con.State = ConnectionState.Closed Then
+                    con.Open()
+                End If
 
                 trans = con.BeginTransaction
 
@@ -597,6 +645,7 @@ Public Class Frmperfdataentry
                     'Next
                     MsgBox("Saved!")
                     trans.Commit()
+                    msel = 0
                     'Call cancel()
                 Catch ex As Exception
                     trans.Rollback()
@@ -607,18 +656,6 @@ Public Class Frmperfdataentry
                     If InStr(merr, "PRIMARY KEY") > 0 Then
 
 
-                        'Dim CMD3 As New OleDb.OleDbCommand("SELECT MAX(docnum) AS TNO FROM oinward", con)
-
-
-                        'If con.State = ConnectionState.Closed Then
-                        '    con.Open()
-                        'End If
-
-                        'Dim CBNO As Int32 = IIf(IsDBNull(CMD3.ExecuteScalar) = False, CMD3.ExecuteScalar, 0)
-
-                        'txtno.Text = CBNO + 1
-                        'CMD3.Dispose()
-                        'con.Close()
                         txtno.Text = autoId()
                         msel = 1
                         Call saverec()
@@ -633,19 +670,34 @@ Public Class Frmperfdataentry
 
     End Sub
     Private Sub cmbline_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmbline.SelectedIndexChanged
-
+        'Using dr As SqlDataReader = getDataReader(Sql)
+        '    While dr.Read()
+        '        ' read data
+        '    End While
+        'End Using   '
     End Sub
 
     Private Function autoId() As Integer ' generating auto employee id for a new employee
 
         Dim query = "Select IsNull(Max(bno),0)+1 operid From " & Trim(mcostdbnam) & ".dbo.operf"
-        Dim dr As SqlDataReader
-        dr = getDataReader(query)
-        dr.Read()
-        o_id = dr("operid")
-        dr.Close()
+        'Dim dr As SqlDataReader
+        'dr = getDataReader(query)
+        'dr.Read()
+        'o_id = dr("operid")
+        'dr.Close()
+
+        Using dr2 As SqlDataReader = getDataReader(query)
+            If dr2.Read() Then
+                o_id = Convert.ToInt32(dr2("operid"))
+            End If
+        End Using   ' <-- ALWAYS closes reader + connection
+
+
 
         Return o_id
+
+
+
 
     End Function
 
@@ -685,8 +737,10 @@ Public Class Frmperfdataentry
                     msel = 0
                 End If
             End If
+            mkdate = Format(CDate(mskdate.Text), "yyyy-MM-dd")
         End If
-        mkdate = Format(CDate(mskdate.Text), "yyyy-MM-dd")
+
+        'mkdate = Format(CDate(mskdate.Text), "yyyy-MM-dd")
     End Sub
 
     Private Sub mskdate_MaskInputRejected(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MaskInputRejectedEventArgs) Handles mskdate.MaskInputRejected
@@ -706,32 +760,30 @@ Public Class Frmperfdataentry
             qry = " select bno,[lineno] linno,date,processname,brand,totprodqty,totrejqty from " & Trim(mcostdbnam) & ".dbo.operf with (nolock) where lock=0 order by bno,date"
         End If
 
-        'qry = " select * from " & Trim(mcostdbnam) & ".dbo.operf with (nolock) where bno=" & Val(txtno.Text) & " and  [lineno]='" & cmbline.Text & "' and date='" & Format(CDate(mskdate.Text), "yyyy-MM-dd") & "'"
+        Task.Run(Sub()
 
+                     dg2.Rows.Clear()
 
+                     Dim dt1 As DataTable = getDataTable(qry)
+                     dg2.Invoke(Sub()
+                                    If dt1.Rows.Count > 0 Then
+                                        For Each row As DataRow In dt1.Rows
+                                            n = dg2.Rows.Add
+                                            'dg2.Rows(n).Cells(0).Value = Convert.ToDouble(rowV.Cells("Tot_Work_hours").Value)
+                                            dg2.Rows(n).Cells(0).Value = Val(row("bno"))
+                                            dg2.Rows(n).Cells(1).Value = row("date")
+                                            dg2.Rows(n).Cells(2).Value = row("linno")
+                                            dg2.Rows(n).Cells(3).Value = row("processname")
+                                            dg2.Rows(n).Cells(4).Value = row("brand")
+                                            dg2.Rows(n).Cells(5).Value = row("Totprodqty")
+                                            dg2.Rows(n).Cells(6).Value = row("totrejqty")
+                                        Next
+                                    End If
+                                    mskdate.Focus()
+                                End Sub)
+                     'mskdate.Focus()
+                 End Sub)
 
-        'Dim query As String
-
-
-        dg2.Rows.Clear()
-
-        Dim dt1 As DataTable = getDataTable(qry)
-        If dt1.Rows.Count > 0 Then
-            For Each row As DataRow In dt1.Rows
-                n = dg2.Rows.Add
-                'dg2.Rows(n).Cells(0).Value = Convert.ToDouble(rowV.Cells("Tot_Work_hours").Value)
-                dg2.Rows(n).Cells(0).Value = Val(row("bno"))
-                dg2.Rows(n).Cells(1).Value = row("date")
-                dg2.Rows(n).Cells(2).Value = row("linno")
-                dg2.Rows(n).Cells(3).Value = row("processname")
-                dg2.Rows(n).Cells(4).Value = row("brand")
-                dg2.Rows(n).Cells(5).Value = row("Totprodqty")
-                dg2.Rows(n).Cells(6).Value = row("totrejqty")
-
-
-            Next
-        End If
-        mskdate.Focus()
     End Sub
 
     Private Sub dg2_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles dg2.CellContentClick

@@ -358,4 +358,10 @@ Public Class MDIFORM1
         obj.Show()
         obj.MdiParent = Me
     End Sub
+
+    Private Sub PieceRateTailorReportToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PieceRateTailorReportToolStripMenuItem.Click
+        Dim obj As New FrmpieceRateRep
+        obj.Show()
+        obj.MdiParent = Me
+    End Sub
 End Class

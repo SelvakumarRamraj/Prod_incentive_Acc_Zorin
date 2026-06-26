@@ -285,7 +285,7 @@ Public Class Frmempmaster
     End Sub
     Private Sub newinsert()
 
-        
+
         'msql = "insert into prodcost.dbo.empmaster (nemp_id,nempno,empname,department,designation,category,[lineno],processname,salary) " & vbCrLf _
         '     & " select * from (select nemp_id,nempno,vname as empname,vdepartment department,vdesignation designation,vcategory category,linno [lineno],'STITCHING' processname,totsalary salary from rrcolor.dbo.empmaster where cdepartment like '%STITCHING%' or cdepartment like  '%ST HELPER%' or cdepartment like '%QUALITY%') c" & vbCrLf _
         '     & " where not exists( select * from prodcost.dbo.empmaster b with (nolock)  where b.nempno=c.nempno) "
@@ -299,7 +299,7 @@ Public Class Frmempmaster
 
         msql = "insert into prodcost.dbo.empmaster (nemp_id,nempno,empname,department,designation,category,[lineno],processname,salary) " & vbCrLf _
             & " select * from (select nemp_id,nempno,vname as empname,vdepartment department,vdesignation designation,vcategory category,linno [lineno],'STITCHING' processname,totsalary salary from rrcolor.dbo.empmaster " & vbCrLf _
-            & "  where (isnull(subdept,'')='STITCHING' or vdepartment in ('TAILORING')) and isnull(active,'')<>'N' ) c" & vbCrLf _
+            & "  where (isnull(subdept,'') in ('STITCHING','PRODUCTION') or vdepartment in ('TAILORING')) and isnull(active,'')<>'N' ) c" & vbCrLf _
             & " where not exists( select * from prodcost.dbo.empmaster b with (nolock)  where b.nempno=c.nempno) "
 
 

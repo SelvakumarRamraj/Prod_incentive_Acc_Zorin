@@ -1,5 +1,6 @@
 Imports System.Drawing
 Imports System.Drawing.Printing
+Imports System.Threading.Tasks
 
 Public Class Frmiewiprep
     Dim msql, sql As String
@@ -20,6 +21,8 @@ Public Class Frmiewiprep
     End Sub
 
     Private Sub loaddata()
+
+
         msql = "select c.u_status, case when isnull(sc.scqty,0)<>0 then 'SC' else 'IH' end Ptype, c.u_brandgroup,c.docnum CutPlanno,c.docentry,c.u_docdate,c.planqty,c.fplanqty CompleteQty,c.PlanQty-c.Fplanqty CutingBalQty,isnull(r.cut,0) Cut," & vbCrLf _
               & " isnull(r.emb,0) Emb,isnull(r.st,0) ST,isnull(r.kaja,0) Kaja,isnull(sc.scqty,0) ScQty from ( " & vbCrLf _
               & " select b.u_status, b.docnum,a.docentry,b.u_docdate,tt.u_brandgroup, sum(a.u_totalqty) PlanQty,sum(a.u_prodqty) Fplanqty from [@inm_fcp2] a with (nolock) " & vbCrLf _
@@ -31,88 +34,117 @@ Public Class Frmiewiprep
         Else
             msql = msql & " and U_Remarks not like'%SPL%' " & vbCrLf
         End If
-        'and U_Remarks not like'%SPL%' " & vbCrLf _
 
-        msql = msql & " and b.U_Status='R'  group by b.docnum,a.docentry,b.u_docdate,tt.u_brandgroup,b.U_Status) c " & vbCrLf _
-              & " left join (select kp.u_brandgroup,kp.cutplanno,kp.cutpdocentry,sum(kp.cutplanqty) cutplanqty ,sum(kp.cutplprdqty) cutplprdqty,sum(kp.cut) Cut,sum(kp.emb) Emb,sum(kp.st) ST,sum(kp.kaja) Kaja,sum(kp.chk) Chk,sum(kp.Iron) Iron from ( " & vbCrLf _
-              & " select p.u_brandgroup,p.cutplanno,p.cutpdocentry,sum(p.cutplanqty) cutplanqty ,sum(p.cutplprdqty) cutplprdqty,sum(p.cut) Cut,sum(p.emb) Emb,sum(p.st) ST,sum(p.kaja) Kaja,sum(p.chk) Chk,sum(p.Iron) Iron from ( " & vbCrLf _
-              & " select k.u_brandgroup,k.cutplanno,cutpdocentry, k.cutplanqty,k.cutplprdqty, " & vbCrLf _
-              & " case when k.opercode='CUTGD' then  sum(k.rgqty) else 0 end Cut, " & vbCrLf _
-              & "  case when k.opercode='EMBGD' then  sum(k.rgqty) else 0 end EMB," & vbCrLf _
-              & " case when k.opercode='STGD' then  sum(k.rgqty) else 0 end ST, " & vbCrLf _
-              & " case when k.opercode='KAJAGD' then  sum(k.rgqty) else 0 end Kaja, " & vbCrLf _
-              & " case when k.opercode='CHKGD' then  sum(k.rgqty) else 0 end Chk, " & vbCrLf _
-              & " case when k.opercode='IRONGD' then  sum(k.rgqty) else 0 end Iron from ( " & vbCrLf _
-              & " select t.u_brandgroup, a.DocNum WONo,a.DocEntry WOEntry,a.U_ItemCode ItemCode,a.U_ItemName ItemName, " & vbCrLf _
-              & " b.U_OperID OperCode,b.U_OperName OperName,b.U_NewSeq Sequence,c.U_CutNo CutNo,c.U_AccQty CutQty, " & vbCrLf _
-              & " (isnull(c.U_AccQty,0)+isnull(c.u_rewinqty,0)-isnull(c.U_RewAccQty,0)) -(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)) nIssueQty, " & vbCrLf _
-              & " (isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)))+ " & vbCrLf _
-              & " ((isnull(c.U_RewQty,0)+isnull(c.U_RewInQty,0))-(isnull(c.U_RewPDEQty,0)+isnull(c.U_OpenPDEQty,0)+isnull(c.U_RewOutQty,0))) as issueqty, " & vbCrLf _
-              & " (isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0))) rgqty,g.docnum cutplanno,f.docentry cutpdocentry, " & vbCrLf _
-              & " f.u_totalqty cutplanqty,f.U_ProdQty cutplprdqty from [dbo].[@INM_OWOR] a,[@INM_WOR2] b,[@INM_WOR8] c,[@inm_fcp2] f,[@inm_ofcp] g,oitm t " & vbCrLf _
-              & " where a.DocEntry = b.DocEntry And b.DocEntry = c.DocEntry  and a.U_Status='R'  " & vbCrLf _
-              & " and b.u_operid not in ('IRONGD') and b.LineId =c.U_UniqID   and a.U_ItemCode not like 'ACC%' and g.U_Place='IH' " & vbCrLf _
-              & " and  f.U_WOEntry=a.docentry and f.docentry=g.docentry and f.u_itemcode=a.u_itemcode and t.itemcode=a.U_ItemCode and " & vbCrLf _
-              & " ((isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)))+ " & vbCrLf _
-              & " ((isnull(c.U_RewQty,0)+isnull(c.U_RewInQty,0))-(isnull(c.U_RewPDEQty,0)+isnull(c.U_OpenPDEQty,0)+isnull(c.U_RewOutQty,0))))>0 ) k " & vbCrLf _
-              & " group by k.opercode, k.u_brandgroup,k.cutplanno,cutpdocentry, k.cutplanqty,k.cutplprdqty) p " & vbCrLf _
-              & " group by p.u_brandgroup,p.cutplanno,p.cutpdocentry " & vbCrLf _
-              & " union all " & vbCrLf _
-              & " select ll.u_brandgroup,ll.cutplanno,ll.cutpdocentry,sum(ll.cutplanqty) cutplanqty,sum(ll.cutplprdqty) cutplprdqty, " & vbCrLf _
-              & " sum(ll.cut) Cut,sum(ll.emb) Emb,sum(ll.st) ST,sum(ll.kaja) Kaja,sum(ll.Chk) Chk,sum(ll.Iron) Iron from ( " & vbCrLf _
-              & " select kk.u_brandgroup,kk.cutplanno,kk.cutpdocentry,kk.cutplanqty,kk.cutplprdqty, " & vbCrLf _
-              & " case when kk.opercode='CUTGD' then  sum(kk.balqty) else 0 end Cut, " & vbCrLf _
-              & " case when kk.opercode='EMBGD' then  sum(kk.balqty) else 0 end EMB, " & vbCrLf _
-              & " case when kk.opercode='STGD' then  sum(kk.balqty) else 0 end ST, " & vbCrLf _
-              & " case when kk.opercode='KAJAGD' then  sum(kk.balqty) else 0 end Kaja, " & vbCrLf _
-              & " case when kk.opercode='CHKGD' then  sum(kk.balqty) else 0 end Chk, " & vbCrLf _
-              & " case when kk.opercode='IRONGD' then  sum(kk.balqty) else 0 end Iron  from ( " & vbCrLf _
-              & " select  b.u_type,  b.U_DTOperCode opercode, g.docnum cutplanno,f.docentry cutpdocentry, b.u_tlno, t.U_BrandGroup,  a.U_ItemCode,c.ItemName,c.U_Style, c.U_Size, " & vbCrLf _
-              & " a.U_WONo,a.U_WOEntry,b.U_DocDate Date,b .docnum [PROD DEL NO],DATEDIFF(d,b.u_docdate ,GETDATE()) [No Of Days], " & vbCrLf _
-              & " a.U_CutNo,sum(a.U_RecdQty) rcdqty,sum(a.u_cmplqty) relqty,sum(isnull(a.u_wipqty,0)) as openqty,  sum(a.u_cmplqty+ISNULL(a.u_wipqty,0)) cmplqty, " & vbCrLf _
-              & " sum(f.u_totalqty) cutplanqty,sum(f.U_ProdQty) cutplprdqty, " & vbCrLf _
-              & " sum(a.U_RecdQty-(a.U_CmplQty+ISNULL(U_WIPQty,0))) as balqty from [@inm_pde1] a,[@INM_OPDE] b,OITM c,[@inm_fcp2] f,[@inm_ofcp] g,oitm t " & vbCrLf _
-              & " where b.DocEntry=a.DocEntry and a.U_ItemCode=c.itemcode and b.u_docstatus='R' and g.U_Place='IH' and b.canceled not in ('Y') and f.U_WOEntry=a.u_woentry and f.docentry=g.DocEntry " & vbCrLf _
-              & " And f.U_ItemCode = a.U_ItemCode And t.itemcode = a.u_itemcode " & vbCrLf _
-              & " group by b.u_type,  b.U_dtOperCode, a.U_ItemCode,c.ItemName,c.U_Style,  c.U_Size, a.U_WONo,a.U_WOEntry,a.U_CutNo,b.U_DocDate,b.docnum,b.u_tlno,g.docnum,f.docentry, " & vbCrLf _
-              & "  t.u_brandgroup having  sum(a.U_RecdQty-(a.U_CmplQty+ISNULL(U_WIPQty,0))) <>0 ) kk " & vbCrLf _
-              & " group by kk.u_brandgroup,kk.opercode, kk.cutplanno,kk.cutpdocentry,kk.cutplanqty,kk.cutplprdqty) ll " & vbCrLf _
-              & " group by ll.u_brandgroup,ll.cutplanno,ll.cutpdocentry) kp " & vbCrLf _
-              & " group by kp.u_brandgroup,kp.cutplanno,kp.cutpdocentry) r on r.cutpdocentry=c.DocEntry and r.U_BrandGroup=c.U_BrandGroup " & vbCrLf _
-              & " left join (select t.u_brandgroup, b.U_FCPEntry,sum(b.u_orderqty-b.u_accpqty) scqty from [@insc_jor1] b with (nolock) " & vbCrLf _
-              & " inner join [@insc_ojor] c on c.docentry=b.docentry  " & vbCrLf _
-              & " inner join oitm t on t.itemcode=b.u_itemcode " & vbCrLf _
-              & "  where c.u_status='O' group by b.u_fcpentry,t.u_brandgroup) sc on sc.u_brandgroup=c.u_brandgroup and sc.u_fcpentry=c.DocEntry " & vbCrLf _
-              & " where (isnull(r.cut,0)+isnull(r.emb,0)+isnull(r.st,0)+isnull(r.kaja,0)+isnull(r.chk,0)+isnull(r.iron,0)+isnull(sc.scqty,0))>0 " & vbCrLf _
-              & " or (c.u_status<>'C' and (isnull(r.cut,0)+isnull(r.emb,0)+isnull(r.st,0)+isnull(r.kaja,0)+isnull(r.chk,0)+isnull(r.iron,0)+isnull(sc.scqty,0)<0)) " & vbCrLf
+        msql = msql & "and b.U_Status='R'  group by b.docnum,a.docentry,b.u_docdate,tt.u_brandgroup,b.U_Status) c 
+                left join (select kp.u_brandgroup,kp.cutplanno,kp.cutpdocentry,sum(kp.cutplanqty) cutplanqty ,sum(kp.cutplprdqty) cutplprdqty,sum(kp.cut) Cut,sum(kp.emb) Emb,sum(kp.st) ST,sum(kp.kaja) Kaja,sum(kp.chk) Chk,sum(kp.Iron) Iron from (  
+                 select p.u_brandgroup,p.cutplanno,p.cutpdocentry,sum(p.cutplanqty) cutplanqty ,sum(p.cutplprdqty) cutplprdqty,sum(p.cut) Cut,sum(p.emb) Emb,sum(p.st) ST,sum(p.kaja) Kaja,sum(p.chk) Chk,sum(p.Iron) Iron from (  
+                select k.u_brandgroup,k.cutplanno,cutpdocentry, k.cutplanqty,k.cutplprdqty,  
+                case when k.opercode='CUTGD' then  sum(k.rgqty) else 0 end Cut,  
+                case when k.opercode='EMBGD' then  sum(k.rgqty) else 0 end EMB, 
+                case when k.opercode='STGD' then  sum(k.rgqty) else 0 end ST,  
+                case when k.opercode='KAJAGD' then  sum(k.rgqty) else 0 end Kaja,  
+                case when k.opercode='CHKGD' then  sum(k.rgqty) else 0 end Chk,  
+                case when k.opercode='IRONGD' then  sum(k.rgqty) else 0 end Iron from (  
+                select t.u_brandgroup, a.DocNum WONo,a.DocEntry WOEntry,a.U_ItemCode ItemCode,a.U_ItemName ItemName,  
+                b.U_OperID OperCode,b.U_OperName OperName,b.U_NewSeq Sequence,c.U_CutNo CutNo,c.U_AccQty CutQty,  
+                (isnull(c.U_AccQty,0)+isnull(c.u_rewinqty,0)-isnull(c.U_RewAccQty,0)) -(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)) nIssueQty,  
+                (isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)))+  
+                ((isnull(c.U_RewQty,0)+isnull(c.U_RewInQty,0))-(isnull(c.U_RewPDEQty,0)+isnull(c.U_OpenPDEQty,0)+isnull(c.U_RewOutQty,0))) as issueqty,  
+                (isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0))) rgqty,g.docnum cutplanno,f.docentry cutpdocentry,  
+                f.u_totalqty cutplanqty,f.U_ProdQty cutplprdqty from [dbo].[@INM_OWOR] a with (nolock) 
+	            inner join [@INM_WOR2] b with (nolock) on b.docentry=a.docentry 
+	            inner join [@INM_WOR8] c with (nolock) on c.docentry=a.docentry and c.U_UniqID=b.LineId
+	            inner join [@inm_fcp2] f with (nolock) on f.U_WOEntry=a.docentry and f.u_itemcode=a.U_ItemCode
+	            inner join [@inm_ofcp] g with (nolock) on g.docentry=f.docentry
+	            inner join oitm t  with (nolock) on t.itemcode=a.u_itemcode
+	            where  a.U_Status='R' and b.u_operid not in ('IRONGD') and a.U_ItemCode not like 'ACC%' and g.U_Place='IH'and  
+	           ((isnull(c.U_AccQty,0)-(isnull(c.U_OutQty,0)+isnull(c.U_IssdQty,0)+isnull(c.U_JOQty,0)+isnull(c.U_PDEQty,0)))+  
+               ((isnull(c.U_RewQty,0)+isnull(c.U_RewInQty,0))-(isnull(c.U_RewPDEQty,0)+isnull(c.U_OpenPDEQty,0)+isnull(c.U_RewOutQty,0))))>0 ) k  
+               group by k.opercode, k.u_brandgroup,k.cutplanno,cutpdocentry, k.cutplanqty,k.cutplprdqty) p  
+               group by p.u_brandgroup,p.cutplanno,p.cutpdocentry  
+               union all  
+               select ll.u_brandgroup,ll.cutplanno,ll.cutpdocentry,sum(ll.cutplanqty) cutplanqty,sum(ll.cutplprdqty) cutplprdqty,  
+               sum(ll.cut) Cut,sum(ll.emb) Emb,sum(ll.st) ST,sum(ll.kaja) Kaja,sum(ll.Chk) Chk,sum(ll.Iron) Iron from (  
+               select kk.u_brandgroup,kk.cutplanno,kk.cutpdocentry,kk.cutplanqty,kk.cutplprdqty,  
+               case when kk.opercode='CUTGD' then  sum(kk.balqty) else 0 end Cut,  
+               case when kk.opercode='EMBGD' then  sum(kk.balqty) else 0 end EMB,  
+               case when kk.opercode='STGD' then  sum(kk.balqty) else 0 end ST,  
+               case when kk.opercode='KAJAGD' then  sum(kk.balqty) else 0 end Kaja,  
+               case when kk.opercode='CHKGD' then  sum(kk.balqty) else 0 end Chk,  
+               case when kk.opercode='IRONGD' then  sum(kk.balqty) else 0 end Iron  from (  
+               select  b.u_type,  b.U_DTOperCode opercode, g.docnum cutplanno,f.docentry cutpdocentry, b.u_tlno, c.U_BrandGroup,  a.U_ItemCode,c.ItemName,c.U_Style, c.U_Size,  
+               a.U_WONo,a.U_WOEntry,b.U_DocDate Date,b .docnum [PROD DEL NO],DATEDIFF(d,b.u_docdate ,GETDATE()) [No Of Days],  
+               a.U_CutNo,sum(a.U_RecdQty) rcdqty,sum(a.u_cmplqty) relqty,sum(isnull(a.u_wipqty,0)) as openqty,  sum(a.u_cmplqty+ISNULL(a.u_wipqty,0)) cmplqty,  
+               sum(f.u_totalqty) cutplanqty,sum(f.U_ProdQty) cutplprdqty,  
+               sum(a.U_RecdQty-(a.U_CmplQty+ISNULL(U_WIPQty,0))) as balqty from [@inm_pde1] a with (nolock) 
+               inner join [@INM_OPDE] b with (nolock) on b.docentry=a.docentry
+	           inner join OITM c with (nolock) on c.itemcode=a.u_itemcode
+	           inner join [@inm_fcp2] f with (nolock) on f.U_WOEntry=a.U_WOEntry and f.u_itemcode=a.u_itemcode
+	           inner join [@inm_ofcp] g with (nolock) on g.docentry=f.docentry
+               where b.canceled<>'Y' and  b.u_docstatus='R' 
+	           group by b.u_type,  b.U_dtOperCode, a.U_ItemCode,c.ItemName,c.U_Style,  c.U_Size, a.U_WONo,a.U_WOEntry,a.U_CutNo,b.U_DocDate,b.docnum,b.u_tlno,g.docnum,f.docentry,  
+               c.u_brandgroup having  sum(a.U_RecdQty-(a.U_CmplQty+ISNULL(U_WIPQty,0))) <>0 ) kk  
+               group by kk.u_brandgroup,kk.opercode, kk.cutplanno,kk.cutpdocentry,kk.cutplanqty,kk.cutplprdqty) ll  
+               group by ll.u_brandgroup,ll.cutplanno,ll.cutpdocentry) kp  
+               group by kp.u_brandgroup,kp.cutplanno,kp.cutpdocentry)  r on r.cutpdocentry=c.DocEntry and r.U_BrandGroup=c.U_BrandGroup  
+               left join (select t.u_brandgroup, b.U_FCPEntry,sum(b.u_orderqty-b.u_accpqty) scqty from [@insc_jor1] b with (nolock)  
+               inner join [@insc_ojor] c with (nolock) on c.docentry=b.docentry   
+               inner join oitm t with (nolock)  on t.itemcode=b.u_itemcode  
+               where c.u_status='O' group by b.u_fcpentry,t.u_brandgroup) sc on sc.u_brandgroup=c.u_brandgroup and sc.u_fcpentry=c.DocEntry  
+               where (isnull(r.cut,0)+isnull(r.emb,0)+isnull(r.st,0)+isnull(r.kaja,0)+isnull(r.chk,0)+isnull(r.iron,0)+isnull(sc.scqty,0))>0  
+               or (c.u_status<>'C' and (isnull(r.cut,0)+isnull(r.emb,0)+isnull(r.st,0)+isnull(r.kaja,0)+isnull(r.chk,0)+isnull(r.iron,0)+isnull(sc.scqty,0)<0)) "
+
+
+
+
+
+
         Cursor = Cursors.WaitCursor
         dg.DataSource = Nothing
-        Dim dt As DataTable = getDataTable(msql)
-        If dt.Rows.Count > 0 Then
-            dg.DataSource = dt
-            dg.ColumnHeadersDefaultCellStyle.Font = New Font(DataGridView.DefaultFont, FontStyle.Bold)
-            dg.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
-            For i = 0 To dg.Columns.Count - 1
-                '        dgsr.Columns(i).ReadOnly = True
-                If i > 5 Then
-                    dg.Columns(i).ValueType = GetType(Int32)
-                    dg.Columns(i).DefaultCellStyle.Format = ("0")
-                    dg.Columns(i).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
 
-                End If
-                '        If i > 1 Then
-                '            dgsr.Columns(i).ValueType = GetType(Decimal)
-                '            dgsr.Columns(i).DefaultCellStyle.Format = ("0.00")
-                ' 
-                '   End If
-                dg.Columns(i).ReadOnly = True
-            Next
-        Else
-            dg.DataSource = Nothing
-        End If
+        Task.Run(Sub()
+                     'Task.Run(Function()
+                     '             Dim dt As DataTable = getDataTable(msql)
+                     '             Return dt
+                     '         End Function)
 
-        Cursor = Cursors.Default
+                     Dim dt As DataTable = getDataTable(msql)
+                     'Dim dt As DataTable = t.result
+                     'Dim dt As DataTable = Await Task.Run(Function()
+                     '                                         Return getDataTable(sql)
+                     '                                     End Function)
+                     dg.Invoke(Sub()
+                                   If dt.Rows.Count > 0 Then
+                                       dg.DataSource = dt
+                                       dg.ColumnHeadersDefaultCellStyle.Font = New Font(DataGridView.DefaultFont, FontStyle.Bold)
+                                       dg.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter
+                                       For i = 0 To dg.Columns.Count - 1
+                                           '        dgsr.Columns(i).ReadOnly = True
+                                           If i > 5 Then
+                                               dg.Columns(i).ValueType = GetType(Int32)
+                                               dg.Columns(i).DefaultCellStyle.Format = ("0")
+                                               dg.Columns(i).DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight
+
+                                           End If
+                                           '        If i > 1 Then
+                                           '            dgsr.Columns(i).ValueType = GetType(Decimal)
+                                           '            dgsr.Columns(i).DefaultCellStyle.Format = ("0.00")
+                                           ' 
+                                           '   End If
+                                           dg.Columns(i).ReadOnly = True
+                                       Next
+                                   Else
+                                       dg.DataSource = Nothing
+                                   End If
+                                   Cursor = Cursors.Default
+                               End Sub)
+
+                 End Sub)
+
+
+        'Cursor = Cursors.Default
     End Sub
+
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         If chkacc.Checked = True Then
@@ -143,9 +175,10 @@ Public Class Frmiewiprep
     End Sub
 
     Private Sub loadforaccessory()
-        msql = "select 'False' sel, f.DocNum CutPlanNo,format (f.U_DocDate,'dd-MM-yyyy') as CutPlanDate,b.U_CutNo,it.U_BrandGroup,it.U_Style,it.U_Size,b.U_AccpQty  from [@INM_OWIP] a left join [@INM_WIP1] b on a.DocEntry=b.DocEntry " _
-               & " left join oitm it on b.U_ItemCode=it.ItemCode " _
-               & " left join [@INM_OFCP] f on b.U_FCPEntry=f.DocEntry " _
+        msql = "select 'False' sel, f.DocNum CutPlanNo,format (f.U_DocDate,'dd-MM-yyyy') as CutPlanDate,b.U_CutNo,it.U_BrandGroup,it.U_Style,it.U_Size,b.U_AccpQty  from [@INM_OWIP] a with (nolock)" _
+               & " left join [@INM_WIP1] b with (nolock) on a.DocEntry=b.DocEntry " _
+               & " inner join oitm it with (nolock) on b.U_ItemCode=it.ItemCode " _
+               & " inner join [@INM_OFCP] f with (nolock) on b.U_FCPEntry=f.DocEntry " _
                & " where a.U_OperCode='CUTGD' and U_DocStatus='C' and it.ItmsGrpCod not in (105) " _
                & " and a.U_DocDate>='" & Format(CDate(mskdatefr.Text), "yyyy-MM-dd") & "' and a.U_DocDate<=' " & Format(CDate(Mskdateto.Text), "yyyy-MM-dd") & "' " _
                & " order by f.docnum,f.u_docdate,it.u_brandgroup,it.u_style,it.u_size "
